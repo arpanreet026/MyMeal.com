@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="Stylesheet" href="style2.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/0a7af57943.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="main-navigation">
+        <nav class="navbar navbar-expand-md navbar-toggleable-md bg-dark navbar-dark gradient-custom" style="height:60px; background:url('./images/bg-facts.jpg')no-repeat center center/cover;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./images/restaurant.png" height="55"
+                        width="64">&nbsp;MyMeal.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown"
+                    style="text-align:right;  font-size:20px;  padding-left:750px;">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.php">&nbsp;&nbsp;<i class="fa-solid fa-house" style="color: #b3bed0;"></i>&nbsp;Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="categories.php">&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-bars" style="color: #b3bed0;"></i>&nbsp;Menu</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="./register.php">&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-user-plus" style="color: #b3bed0;"></i>&nbsp;Sign up</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-user-check" style="color: #b3bed0;"></i>&nbsp;
+                                Login
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./login.php" style="color:black;">USER</a></li>
+                                <li><a class="dropdown-item" href="./admin/login.php" style="color:black;">ADMIN</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        
+    <section id="home">
+        <h2 class="h-ternary">ABOUT US</h2>
+        <span class="h-space"></span><br><br> 
+    </section>
+<section>
+    <h2 class="h-ternary">&nbsp RESTAURANT OVERVIEW</h2>
+    <hr class="hr-space">
+    <br><br>
+    <p class="para">Launched in Amritsar, MyMeals.com has grown from a home project to one of the most popular food ordering website of the city. We are providing the best food services at your door steps enabling our vision of better food for more people. We not only connect people to food in every context but work closely with restaurants to enable a sustainable ecosystem.</p>
+<br><br>
+    </section>
+
+<section id="chef-container">
+    <h2 class="h-ternary center">OUR CHEFS</h2>
+    <span class="h-space"></span>
+    <div id="chefs">
+        <div class="box">
+            <img src="images/our-chefs1.jpg" class="enlarge-image"  onhover="toggleImageSize()" alt="Chef">
+            <h4 class="h-secondary center">Michaela Bert</h4>
+            <p class="para center">Head Chef</p>
+        </div>
+        <div class="box">
+            <img src="images/our-chefs2.jpg" class="enlarge-image"  onhover="toggleImageSize()" alt="Chef">
+            <h4 class="h-secondary center">Andrew Smith</h4>
+            <p class="para center">Food Specialist</p>
+        </div>
+        <div class="box">
+            <img src="images/our-chefs3.jpg" class="enlarge-image"  onhover="toggleImageSize()" alt="Chef">
+            <h4 class="h-secondary center">Samiya Bravo</h4>
+            <p class="para center">Food Supervisor</p>
+        </div>
+        <div class="box">
+            <img src="images/our-chefs4.jpg" class="enlarge-image"  onhover="toggleImageSize()" alt="Chef">
+            <h4 class="h-secondary center">Tom Harvey</h4>
+            <p class="para center">Food Delivery Supervisor</p>
+        </div> 
+    </div>
+</section>
+<span class="h-space"></span>
+
+<div class="container">
+    <footer class="py-5">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>About Us</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">Launched in Amritsar, MyMeals.com has grown from a home project to one
+                        of the most
+                        popular food ordering website of the city. We are providing the best food services at your
+                        door
+                        steps enabling our vision of better food for more people. </p>
+                </ul></a></li>
+
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>&nbsp &nbsp Connect with us</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>&nbsp
+                        &nbsp Near AGC,Amritsar.
+                    </li>
+                    <li class="nav-item mb-2"><i class="fa-solid fa-phone" style="color: #ffffff;"></i>&nbsp &nbsp
+                        +91 &nbsp 89378 70596</li>
+                    <li class="nav-item mb-2"><i class="fa-regular fa-envelope" style="color: #ffffff;"></i>&nbsp
+                        &nbsp MyMealcom@gmail.com
+                    </li>
+                    <li class="nav-item mb-2"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i>&nbsp
+                        &nbsp MyMealCo</li>
+                    <li class="nav-item mb-2"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i>&nbsp
+                        &nbsp Mymeal010</li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3" style="padding-left:60px;">
+                <h5>Quick Links</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#feature-wrap"
+                            class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#menu-container"
+                            class="nav-link p-0 text-body-secondary">Menu</a></li>
+                    <li class="nav-item mb-2"><a href="#contact-section"
+                            class="nav-link p-0 text-body-secondary">Contact</a></li>
+                    <li class="nav-item mb-2"><a href="./register.php"
+                            class="nav-link p-0 text-body-secondary">Order Now</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Get Notified about new & exciting offers from us!</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address"
+                            fdprocessedid="n26vw" required>
+                        <button class="btn btn-primary" style="background-color:rgba(0,0,0,.5)" type="submit"
+                            fdprocessedid="0vbpak">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <pre>© 2023 MyMealCompany, Inc. All rights reserved.   @ArpanreetKaur</pre>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="#">
+                        <i class="fa-brands fa-twitter" style="color: #3679ec;"></i>
+                    </a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram"
+                            style="color: #c85bc5;"></i>
+                    </a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook"
+                            style="color: #3679ec;"></i>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<a href="#" id="back-top"><i class="fa fa-angle-up fa-2x"></i></a>
+
+
+<script>
+   function toggleImageSize() {
+      var image = document.getElementById('myImage');
+      if (image.classList.contains('enlarge-image')) {
+        image.classList.remove('enlarge-image');
+      } 
+      else {
+        image.classList.add('enlarge-image');
+      }
+    }
+
+</script>
+
+
+</body>
+</html>

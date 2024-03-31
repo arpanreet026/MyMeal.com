@@ -1,0 +1,168 @@
+
+body{
+    background-color: maroon ;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container{
+   
+    color:white;
+    margin-top:40px;
+    margin-left:545px;
+    margin-bottom:100px;
+    height:580px;
+    width:440px;
+    border:none;
+    background: rgba(0,0,0,.5);
+
+    opacity:1;
+    
+}
+
+.container2{
+    color:white;
+    padding-top:10px;
+    margin-top:100px;
+    margin-bottom:300px;
+    width:500px;
+    background: rgba(0,0,0,.5);
+    opacity:1; 
+    margin-left:500px; 
+
+}
+
+.login{
+    padding-left:60px;
+}
+
+.container3{
+    color:white;
+    padding-top:10px;
+    margin-top:100px;
+    margin-bottom:300px;
+    width:500px;
+    background: rgba(0,0,0,.5);
+    opacity:1; 
+    margin-left:500px; 
+}
+
+@media only screen and (max-width: 700px){
+    .container2{
+        padding-left:18px !important;
+    }
+}
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6px;
+    padding-right:2px;
+    padding-top:2px;
+}
+
+  
+
+#contact-box .form {
+    margin-top: 1px;
+    padding: 7px;
+    padding-top:5px;
+    display:flex;
+}
+
+
+#contact-box input {
+    height: 35px;
+	width:95%;
+	font-size:20px;
+	padding:5px;
+	text-align: center;
+	font-style: bold;
+    font-size: small;  
+}
+
+#contact-box .form label {
+	color:#fff;
+    font-size: 18px;
+    align-items: baseline;
+}
+
+
+.h-ternary{
+    text-align: center;
+    font-size:2.2em;
+    padding:2px;
+    margin-bottom:2px;
+    padding-top:2px;
+    padding-bottom: 0px;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.para{
+    color:white;
+    font-size:1.2rem;
+    font-family: 'Alegreya', serif;
+    text-align:center;
+
+}
+
+.para a{
+    color: #f08b18;
+    text-decoration: none;
+
+}
+#btns{
+    display:flex;
+  
+}
+
+
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #f08b18 0, #b16712 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin-left:35px;
+}
+
+.button-29:focus {
+  box-shadow: #b16712 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgb(189, 145, 27) 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #f08b18 0 3px 7px inset;
+  transform: translateY(2px);
+}
